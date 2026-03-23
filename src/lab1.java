@@ -8,7 +8,7 @@ public class lab1 {
         System.out.println("Product = " + (a * b));
         System.out.println("Division = " + (a / b));
         System.out.println("Modulo = " + (a % b));
-        System.out.println("Is divisible? " + (a % b == 0));
+        System.out.println("Is  divisible? " + (a % b == 0));
     }
 
 }

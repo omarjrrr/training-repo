@@ -11,6 +11,6 @@ public class TypeCasting {
 
         String num = "42";
         int n = Integer.parseInt(num);
-        System.out.println(n);
+        System.out.println(n); 
     }
 }

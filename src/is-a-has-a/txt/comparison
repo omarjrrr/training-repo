@@ -1,0 +1,11 @@
+In Object-Oriented Programming (OOP), relationships between classes are used to model real-world systems in a clear and structured way. The two main types are is-a and has-a, and the latter includes both composition and aggregation.
+
+The is-a relationship represents classification, where one object is a type of another. For example, Dog is an Animal. This relationship is implemented using inheritance, where a child class inherits properties and behaviors from a parent class. It is best used when there is a clear logical hierarchy and the statement “X is a Y” makes sense.
+
+The has-a relationship, on the other hand, represents ownership or usage. For example, Car has an Engine. This relationship is implemented using composition or aggregation, depending on how strong the connection is between the objects.
+
+Composition is a strong form of has-a. It means the contained object cannot exist independently of the parent. A good example is Human has a Heart, where the heart’s lifecycle is tightly linked to the human. In programming, this often means the object is created داخل الكلاس نفسه.
+
+Aggregation is a weaker form of has-a. It means the contained object can exist independently and may be shared. For example, Student has a Laptop, where the laptop can be used by different students and is not tied to one specific object. In code, this usually means the object is passed from outside.
+
+In summary, is-a is used for hierarchy and inheritance, while has-a is used for composition and aggregation. Composition represents strong ownership and dependency, whereas aggregation represents a more flexible and independent relationship.
